@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: s.chinnamuthu
+Class-Path: dependency-jars/spring-context-4.0.6.RELEASE.jar dependenc
+ y-jars/spring-aop-4.0.6.RELEASE.jar dependency-jars/aopalliance-1.0.j
+ ar dependency-jars/spring-beans-4.0.6.RELEASE.jar dependency-jars/spr
+ ing-core-4.0.6.RELEASE.jar dependency-jars/commons-logging-1.1.3.jar 
+ dependency-jars/spring-expression-4.0.6.RELEASE.jar
+Build-Jdk: 1.8.0_131
+Created-By: Maven Integration for Eclipse
+Main-Class: com.perf.blog.schedule.SpringScheduleDemo
+
