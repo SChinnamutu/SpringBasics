@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+version="1.0">
+<persistence-unit name="studentPersistenceUnit" transaction-type="RESOURCE_LOCAL" >
+
+<class>com.perficient.pojo.PftAccountDetails</class>
+<class>com.perficient.pojo.PftAppointDetails</class>
+<class>com.perficient.pojo.PftDoctorDetails</class>
+<class>com.perficient.pojo.PftUserDetails</class>
+<class>com.perficient.pojo.PftServiceDetails</class>
+<class>com.perficient.pojo.PftServiceFieldDetail</class>
+</persistence-unit>
+</persistence>
