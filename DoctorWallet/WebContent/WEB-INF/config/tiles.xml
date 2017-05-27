@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+    <definition name="register" template="/WEB-INF/views/register.jsp"></definition>
+    <definition name="errorRegister" template="/WEB-INF/views/register.jsp"></definition>
+    <definition name="index" template="/WEB-INF/views/index.jsp"></definition>
+ 	<definition name="errorLogin" template="/WEB-INF/views/index.jsp"></definition>
+  	<definition name="success" template="/WEB-INF/views/index.jsp"></definition>
+    <definition name="viewDetails" template="/WEB-INF/views/appointDetails.jsp">
+    	<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+    </definition>
+    <definition name="accountView" template="/WEB-INF/views/accountDetails.jsp">
+    	<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+    </definition>
+     <definition name="accountViewError" template="/WEB-INF/views/accountDetails.jsp">
+    	<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+    </definition>
+    <!-- <definition name="appointmentView" template="/WEB-INF/views/WelcomePage.jsp">
+    	<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+    </definition> -->
+    
+     <definition name="appointmentView" template="/WEB-INF/views/fixedAppointDetails.jsp">
+    	<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+    </definition>
+     
+    <definition name="appointmentViewError" template="/WEB-INF/views/fixedAppointDetails.jsp">
+    	<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+    </definition>
+    
+    <definition name="upload" template="/WEB-INF/views/uploadReportDetails.jsp">
+    	<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+    </definition>
+    <definition name="uploadReport" template="/WEB-INF/views/reportSubmission.jsp">
+    	<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+    </definition>
+    
+     <definition name="service" template="/WEB-INF/views/serviceCreation.jsp">
+    	<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+    </definition>
+    
+    
+</tiles-definitions>
